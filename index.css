@@ -558,6 +558,7 @@ main{
   align-items: center;
   padding-top: 40px;
   position: relative;
+  margin-top: inherit;
   }
 
   .prising-section:hover{

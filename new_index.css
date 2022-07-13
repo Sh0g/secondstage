@@ -1,0 +1,55 @@
+html{
+    background: #2E325C
+}
+
+.link:hover {
+	cursor: url('/public/pointer.png'), auto;
+}
+
+section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 100%;
+    align-items: center;
+  }
+
+  .header-section{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .header_item{
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  a{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: auto;
+    text-decoration: none;
+  }

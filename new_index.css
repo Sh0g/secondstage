@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans&family=Ubuntu&display=swap');
 html{
     background: #2E325C
 }
@@ -125,8 +126,7 @@ header{
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
-    line-height: 29px;
-    
+    line-height: 29px;  
     color: #F9FDFF;
   }
 
@@ -137,10 +137,19 @@ header{
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.01em;
-    
     color: #F9FDFF;
   }
 
+  h5{
+    font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #F9FDFF;
+  opacity: 0.5;
+  }
   .free-space{
       padding-top: 300px;
   }
@@ -162,3 +171,12 @@ flex: none;
 order: 0;
 flex-grow: 0;
   }
+
+.black-page{
+  background: #16182C;
+  opacity: 0.7;
+}
+
+.right-text-container{
+  float: right;
+}

@@ -1,0 +1,12 @@
+@font-face {
+   font-family: Noto Sans;
+   src: url(./src/fonts/noto-sans-v27-latin-regular.woff2) format('woff2');
+   font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Noto+Sans&display=swap');
+
+body {
+   font-family: 'Noto Sans';
+}

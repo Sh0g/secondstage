@@ -165,3 +165,27 @@ flex: none;
 order: 0;
 flex-grow: 0;
   }
+
+  h5{
+    font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #F9FDFF;
+  opacity: 0.5;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .black-page{
+    background: #16182C;
+    opacity: 0.7;
+  }
+  
+  .right-text-container{
+    float: right;
+  }

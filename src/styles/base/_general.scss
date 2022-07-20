@@ -137,6 +137,22 @@ h3{
   color: #F9FDFF;
 }
 
+h4{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  background: linear-gradient(110.3deg, #4F7CFF -14.81%, #7FA0FF 100.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 h5{
   font-family: 'Ubuntu';
 font-style: normal;

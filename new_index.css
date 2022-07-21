@@ -125,6 +125,34 @@ header{
     border-radius: 20px;
   }
 
+  .dark-blue-box{
+    
+    width: 835px; 
+    margin:auto;
+    box-shadow: 0px 15px 40px rgba(0, 14, 53, 0.3);
+    border-radius: 20px;
+  }
+  .blue-box .text-box {
+    padding: 10px;
+  }
+
+  .circle-box{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(110.3deg, #4F7CFF -14.81%, #7FA0FF 100.93%);
+    border-radius: 50%;
+    display: flex;
+    align-items:center;
+    margin:auto;
+  }
+
+  .circle-box h1{
+    width: 16px;
+    height: 53px;
+    margin: auto;
+    padding-right:8px;
+  }
+
   .header_item img{
       width:10%;
       height: 10%;
@@ -172,7 +200,6 @@ header{
   }
 
   .text-box{
-        display: grid;
         text-align: center;
   }
 
@@ -196,4 +223,8 @@ flex-grow: 0;
 
 .right-text-container{
   float: right;
+}
+
+html {
+  scroll-behavior: smooth;
 }

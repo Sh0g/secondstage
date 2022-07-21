@@ -75,6 +75,22 @@ h1{
   color:#FFFFFF;
 }
 
+h4{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  background: linear-gradient(110.3deg, #4F7CFF -14.81%, #7FA0FF 100.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .blue-input{
   display: flex;
   align-items: center;
@@ -103,6 +119,34 @@ h1{
   background: #383C6B;
   box-shadow: 0px 15px 40px rgba(0, 14, 53, 0.3);
   border-radius: 20px;
+}
+
+.dark-blue-box{
+  
+  width: 835px; 
+  margin:auto;
+  box-shadow: 0px 15px 40px rgba(0, 14, 53, 0.3);
+  border-radius: 20px;
+}
+.blue-box .text-box {
+  padding: 10px;
+}
+
+.circle-box{
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(110.3deg, #4F7CFF -14.81%, #7FA0FF 100.93%);
+  border-radius: 50%;
+  display: flex;
+  align-items:center;
+  margin:auto;
+}
+
+.circle-box h1{
+  width: 16px;
+  height: 53px;
+  margin: auto;
+  padding-right:8px;
 }
 
 .header_item img{
@@ -137,22 +181,6 @@ h3{
   color: #F9FDFF;
 }
 
-h4{
-  font-family: 'Montserrat Alternates';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 59px;
-
-  /* identical to box height */
-  letter-spacing: 0.03em;
-
-  background: linear-gradient(110.3deg, #4F7CFF -14.81%, #7FA0FF 100.93%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
 h5{
   font-family: 'Ubuntu';
 font-style: normal;
@@ -168,7 +196,6 @@ opacity: 0.5;
 }
 
 .text-box{
-      display: grid;
       text-align: center;
 }
 
@@ -195,5 +222,5 @@ float: right;
 }
 
 html {
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }

@@ -618,6 +618,28 @@ input[type=text] {
   border-width: 0 0 1px;
 }
 
+input[type=submit] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 190px;
+  height: 54px;
+  background-color: #2091f9;
+  border-radius: 50px;
+  position: relative;
+  margin-bottom: 113px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
+
 p {
   font-family: "Open Sans";
   font-style: normal;
@@ -647,6 +669,10 @@ p {
 .circle-box h1 {
   font-size: 48px;
   margin: auto;
+}
+
+.output_message{
+  color:#FFFFFF;
 }
 
 .header_item img {

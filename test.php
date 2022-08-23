@@ -225,14 +225,14 @@
             </div>
         <div class="dark-blue-box1">
             <div class="placeholder-box">
-                <form action="sendmail.php" method="POST">
-                    <input type="text" name="name" placeholder="Your name">
-                    <input type="text" name="email" placeholder="Your Email">
-                    <input type="text" name="company" placeholder="Company">
-                    <input type="text" name="message" maxlength="100" required placeholder="Your message">
-                    <input type="submit" name="submit" value="Contact Us" div class="header_item button" style="padding-top:30px" ><div class="blue-input" style="left:20%"><a>Contact Us</a></div></div>
-                </form>
+            <form action="sendmail.php" method="POST">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="text" name="email" placeholder="Your Email">
+                <input type="text" name="company" placeholder="Company">
+                <input type="text" name="message" maxlength="100" required placeholder="Your message">
+                <input type="submit" value="Contact Us" div class="header_item button" style="padding-top:30px" ><div class="blue-input" style="left:20%"><a>Contact Us</a></div></div>
             </div>
+        </div>
         </div>
     </div>
     </section>

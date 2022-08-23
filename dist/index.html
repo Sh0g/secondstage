@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>gulp-pug-starter</title>
+    <title>gulp-pug-starter</title>    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
     <meta name="theme-color" content="#fff">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -234,7 +238,7 @@
         </div>
       </div>
     </section>
-    <section id="contact" style="padding-bottom: 200px">
+    <section style="padding-bottom: 200px">
       <div class="light-blue-box">
         <div class="flex-container">
           <div class="text-box-mobile">
@@ -243,13 +247,13 @@
           </div>
           <div class="dark-blue-box1">
             <div class="placeholder-box">
-              <input type="text" placeholder="Your name">
-              <input type="text" placeholder="Your Email">
-              <input type="text" placeholder="Company">
-              <input type="text" placeholder="Your message">
-              <div class="header_item button" style="padding-top:30px">
-                <div class="blue-input" style="left:20%"><a href="mailto:olegverishko@dynevo.org?subject=Message&amp;body=This client wants to contact you">Contact Us</a></div>
-              </div>
+              <form method="POST" class="myform">
+                <input type="text" name="name" id="name" placeholder="Your name">
+                <input type="text" name="email" id="email" placeholder="Your Email">
+                <input type="text" name="company" id="company" placeholder="Company">
+                <input type="text" name="message" id="message" maxlength="100" required="" placeholder="Your message">
+                <input class="header_item button" type="submit" name="submit" id="submit" value="Contact Us"><span class="output_message"></span>
+              </form>
             </div>
           </div>
         </div>
@@ -295,8 +299,6 @@
         All rights reserved
       </h5>
     </div>
-    <script src="index.js"></script>
-    <script src="js/vendor.js"></script>
-    <script src="js/main.js"></script>
+
   </body>
 </html>

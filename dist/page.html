@@ -58,7 +58,7 @@
         </div><img src="./img/organisation-plan 1.png" style="width:60%; height:70%;">
       </div>
     </section>
-    <section id="contact" style="padding-bottom: 200px">
+    <section style="padding-bottom: 200px">
       <div class="light-blue-box">
         <div class="flex-container">
           <div class="text-box-mobile">
@@ -67,13 +67,13 @@
           </div>
           <div class="dark-blue-box1">
             <div class="placeholder-box">
-              <input type="text" placeholder="Your name">
-              <input type="text" placeholder="Your Email">
-              <input type="text" placeholder="Company">
-              <input type="text" placeholder="Your message">
-              <div class="header_item button" style="padding-top:30px">
-                <div class="blue-input" style="left:20%"><a href="mailto:olegverishko@dynevo.org?subject=Message&amp;body=This client wants to contact you">Contact Us</a></div>
-              </div>
+              <form action="sendmail.php" method="POST">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="text" name="email" placeholder="Your Email">
+                <input type="text" name="company" placeholder="Company">
+                <input type="text" name="message" maxlength="100" required="" placeholder="Your message">
+                <input class="header_item button" type="submit" name="submit" value="Contact Us" div="">
+              </form>
             </div>
           </div>
         </div>
